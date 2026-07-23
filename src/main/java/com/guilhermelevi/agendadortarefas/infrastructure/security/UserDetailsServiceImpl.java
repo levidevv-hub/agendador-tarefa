@@ -14,6 +14,7 @@ public class UserDetailsServiceImpl  {
     private UsuarioClient usuarioClient;
 
     public UserDetails carregaDaddosUsuario(String email, String token) {
+
         UsuarioDTO usuarioDTO= usuarioClient.buscaUsuarioPorEmail(email, token);
         return User
                 .withUsername(usuarioDTO.getEmail()) // Define o nome de usuário como o e-mail
