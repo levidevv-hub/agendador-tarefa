@@ -22,7 +22,7 @@ public class TarefasEntity {
     private String nomeTarefa;
     private String descricao;
     private LocalDateTime dataCriacao;
-    private LocalDateTime dataEVento;
+    private LocalDateTime dataEvento;
     private String emailUsuario;
     private LocalDateTime dataAlteracao;
     private StatusNotificacaoEnum statusNotificacaoEnum;
